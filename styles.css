@@ -115,6 +115,7 @@ input{
     border: none;
     border-radius: 6px;
     padding: 8px;
+    font-size: 24px;
     background-color: green;
     color: white;
 }

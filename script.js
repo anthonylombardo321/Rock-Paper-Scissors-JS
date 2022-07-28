@@ -82,7 +82,7 @@ function playRound(playerSelection, computerSelection){
         resultsImg.alt = "Game Tied";
         
         resultsText.classList.add("results-text");
-        resultsText.textContent="You Tied - No One Wins";
+        resultsText.textContent="It's a Tie - No One Wins";
     }
 
     //Replaces children in Results Section
