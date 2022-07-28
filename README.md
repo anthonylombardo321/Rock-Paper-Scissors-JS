@@ -1,4 +1,4 @@
-# Rock Paper Mario
+# Rock Paper Scissors JS (Rock Paper Mario)
 <p align="center">
     <img src="markdown-images/rock-paper-mario.png" width="600">
 </p>
