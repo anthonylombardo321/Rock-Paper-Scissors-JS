@@ -2,10 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <title>Rock Paper Mario ★</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
+    <header class="game-header">
+        <div class="game-title">
+            <a href="" class="title-text">Rock Paper Mario</a>
+            <span class="star-icon">★</span>
+        </div>
+        <div class="rule-section">
+            Mario beats Bowser | Peach beats Mario | Bowser beats Peach<br>
+            First to 5 <span class="star-icon">★</span> Wins
+        </div>
+    </header>
+    <main class="game-main">
+        <section class="challenger-section invisible">
+        </section>
+        <section class="results-section invisible">
+        </section>
+        <section class="selection-section">
+            <h2 class="selection-heading">Select Your Character</h2>
+            <div class="options">
+                <div class="mario-button">
+                    <input type="image" src="images/Mario%20Icon.png" alt="Mario Icon">
+                    <p style="color: red">Mario</p>
+                </div>
+                <div class="bowser-button">
+                    <input type="image" src="images/Bowser%20Icon.png" alt="Bowser Icon">
+                    <p style="color: orange">Bowser</p>
+                </div>
+                <div class="peach-button">
+                    <input type="image" src="images/Peach%20Icon.png" alt="Peach Icon">
+                    <p style="color: pink">Peach</p>
+                </div>
+            </div>
+        </section>
+        <div class="score-section">
+            <div class="player-score">
+                <span>Player: </span>
+                <span class="player-score-text">0</span>
+                <span class="star-icon">★</span>
+            </div>
+            <div class="computer-score">
+                <span>Computer: </span>
+                <span class="computer-score-text">0</span>
+                <span class="star-icon">★</span>
+            </div>
+        </div>
+        <section class="winner-section invisible">
+            <h2 class="win-heading">You Won</h2>
+            <img src="images/Losing%20Animation.webp" alt="Player Won">
+        </section>
+        <section class="play-again invisible">
+            <h2>Play Again?</h2>
+            <div class="image">
+                <img src="images/Play%20Again.gif" alt="Play Again?">
+            </div>
+            <button class="restartButton">Play Again</button>
+        </section>
+    </main>
+    <footer class="game-footer">
+        <p class="footer-text">Copyright © AnthonyLombardo321 2022</p>
+    </footer>
 </body>
 </html>

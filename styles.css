@@ -1,0 +1,133 @@
+@import url('http://fonts.cdnfonts.com/css/new-super-mario-font-u');
+body{
+    text-align: center;
+    color: white;
+    font-family: "New Super Mario Font U", sans-serif;
+    margin: 0;
+    background-color: #6096ff;
+}
+/* =========================================================== */
+/* Header */
+header{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.game-title{
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+.title-text{
+    color: white;
+    text-decoration: none;
+}
+.star-icon{
+    color: yellow;
+}
+.rule-section{
+    font-size: 24px;
+}
+/* =========================================================== */
+/* Main */
+.invisible{
+    display: none !important;
+}
+/* =========================================================== */
+/* Challengers */
+.challenger-section{
+    margin: auto;
+    max-width: fit-content;
+    border: 4px solid black;
+    margin-bottom: 24px;
+    max-width: 500px;
+}
+.challenger-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 12px;
+}
+.challenger-images img{
+    height: 200px;
+    width: 200px;
+}
+.challenger-images span{
+    font-size: 24px;
+}
+/* =========================================================== */
+/* Results */
+.results-section{
+    margin: auto;
+    border: 4px solid black;
+    max-width: fit-content;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+.results-section img{
+    max-height: 370px;
+    max-width: 500px;
+}
+.results-text{
+    font-size: 24px;
+}
+/* =========================================================== */
+/* Character Selection */
+.selection-section{
+    margin: auto;
+    border: 4px solid black;
+    margin-bottom: 16px;
+    max-width: 500px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    height: 100px;
+    width: 100px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+/* =========================================================== */
+/* Score */
+.score-section{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+/* =========================================================== */
+/* Winner */
+.winner-section{
+    margin-bottom: 90px;
+}
+/* =========================================================== */
+/* Play Again */
+.play-again{
+    margin-bottom: 90px;
+}
+.play-again h2{
+    margin: 0;
+}
+.play-again button{
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: green;
+    color: white;
+}
+/* =========================================================== */
+/* Footer */
+footer{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}
