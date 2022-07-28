@@ -209,12 +209,16 @@ function displayRestart(){
     restartSection.classList.toggle("invisible");
 }
 
-function playAgain(){
+function restartGame(){
     restartSection.classList.toggle("invisible");
     selectionSection.classList.toggle("invisible");
     scoreSection.classList.toggle("invisible");
+
+    //Reset Score
     playerScore = 0;
     computerScore = 0;
+    playerScoreText.textContent = playerScore;
+    computerScoreText.textContent = computerScore;
 }
 
 //Set addEventListener to buttons
@@ -237,4 +241,4 @@ peachButton.addEventListener('click', function(){
 });
 
 let restartButton = document.querySelector(".restartButton");
-restartButton.addEventListener('click', playAgain);
+restartButton.addEventListener('click', restartGame);
