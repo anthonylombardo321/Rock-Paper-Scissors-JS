@@ -1,4 +1,5 @@
-# Rock Paper Mario
+# Rock Paper Scissors JS (Rock Paper Mario)
+## Link: https://anthonylombardo321.github.io/Rock-Paper-Scissors-JS/
 <p align="center">
     <img src="markdown-images/rock-paper-mario.png" width="600">
 </p>
